@@ -1,0 +1,71 @@
+/* body { background-color: #e4e4e4;} */
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+header {
+    width: auto;
+    height: 50px;
+    background-color: darkgray;
+}
+
+footer {
+    width: auto;
+    height: 200px;
+    background-color: darkgray;   
+}
+
+#activity-group { 
+    background-color: #f1f1f1;
+    height: 300px;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 10px #f1f1f1;
+    position: relative;
+}
+
+#activity-type {
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 8px;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    position: relative;
+    text-align: center;
+    margin-left: 49px;
+    display: table;
+    vertical-align: middle;
+}
+
+p{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#counter {
+    text-align: center;
+    display: absolute;
+    align-items: center;
+}
+
+#button-remove {
+}
+
+#quantity {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#button-add {
+}
