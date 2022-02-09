@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <!-- <html lang="en"> -->
-    <head>
+<head>
         <!-- <title>Activity Counter</title> -->
         <title>Test</title>
         <meta charset="UTF-8">
         <link href="styles.css" rel="stylesheet" type="text/css">
-    </head>
+</head>
 
-    <body>
-        <header>
+<body>
+        <!-- <header>
            <p>(Time)</p>
         </header>
 
         <main>
+
             <div id="activity-group">
                 
                 <div id="activity-type">
@@ -34,11 +35,84 @@
                         </tr>
                     </table>
                 </div>
-            </div>
-         </main>
 
          <footer>
              (table and other)
-         </footer>
-    </body>
+         </footer> -->
+    <!-- <div>
+        <table>
+            <tr>
+                <th colspan="4">Nazwa aktywności</th>
+            </tr>
+
+            <tr>
+                <td colspan="4">Sets:</td>
+            </tr>
+
+            <tr>
+                <td><button>-</button></td>
+                <td colspan="2">(Ilość)</td>
+                <td><button>+</button></td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Repeats in set:</td>
+                <td>(ilość)</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">Points for set:</td>
+                <td>(ilość)</td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button>Edit</button></td>
+                <td colspan="2"><button>Delete</button></td>
+            </tr>
+        </table>
+    </div> -->
+
+    <section id="activity-group">
+        <div id="activity-name">
+            <input type="text" size="55" maxlength="55"/>
+        </div>
+
+        <div id="counter">
+            <table>
+                <tr>
+                    <td>
+                    <button id="button-remove">-</button> 
+                    </td>
+                    <td>
+                    <p id="quantity">(number)</div>
+                    </td>
+                    <td>
+                    <button id="button-add">+</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="repeats-number">
+            <input size="2" maxlength="2"/> <br>
+            Number of repeats <br> in the set
+        </div>
+
+        <div id="points-number">
+            <input size="2" maxlength="2"/> <br>
+            Number of points <br> for the set
+        </div>
+
+        <div id="buttons">
+            <table>
+                <tr>
+            <td id="edit-button-cell"><button>Edit</button></td>
+            <td id="delete-button-cell"><button id="delete-button">Delete</button></td>
+                 </tr>
+        </table>
+        </div>
+
+
+    </section>
+</body>
 </html>

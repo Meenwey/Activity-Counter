@@ -1,7 +1,12 @@
 /* body { background-color: #e4e4e4;} */
 
-body {
+/* body {
     background-color: lightgray;
+    margin: 0;
+} */
+
+body {
+    background-color: #d3e6a4;
     margin: 0;
 }
 
@@ -17,7 +22,19 @@ footer {
     background-color: darkgray;   
 }
 
-#activity-group { 
+/* table {
+    background-color: darkgray;
+    border-radius: 10px;
+    border: solid 1px black
+}
+
+td, th {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+/* #activity-group { 
     background-color: #f1f1f1;
     height: 300px;
     width: 500px;
@@ -51,9 +68,13 @@ p{
     text-align: center;
     display: absolute;
     align-items: center;
+    padding-left: 180px;
+    padding-top: 10px;
 }
 
 #button-remove {
+    width: 20px;
+    height: 20px;
 }
 
 #quantity {
@@ -68,4 +89,88 @@ p{
 }
 
 #button-add {
+    width: 20px;
+    height: 20px;
+} */
+
+#activity-group { 
+    background-color: #9ec539;
+    height: 150px;
+    width: 500px;
+    border: solid 3px #3e520e; 
+    border-radius: 40px;
+    /* box-shadow: 0 0 10px 10px #f1f1f1; */
+    position: relative;
+}
+
+#activity-name{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+#counter{
+    align-items: center;
+    display: table;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 180px;
+}
+
+#button-remove {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#quantity {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    display: table-cell;
+}
+
+#button-add {
+    display: table-cell;
+}
+
+#repeats-number {
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#points-number {
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 370px;
+    text-align: center;
+}
+
+#buttons{
+    display: table;
+    padding-top: 110px;
+    text-align: center;
+}
+
+#edit-button-cell,#delete-button-cell{
+    display: table-cell;
+}
+
+#edit-button-cell{
+    padding-left: 130px;
+}
+
+#delete-button-cell{
+    padding-left: 140px;
+}
+
+
+input{
+    text-align: center;
 }
